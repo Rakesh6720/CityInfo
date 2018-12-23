@@ -24,6 +24,12 @@ namespace CityInfo.API
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler();
+            }
+
+            app.UseStaticFiles();
 
             app.UseMvc();
 
