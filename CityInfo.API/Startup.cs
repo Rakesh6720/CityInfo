@@ -29,7 +29,7 @@ namespace CityInfo.API
                 app.UseExceptionHandler();
             }
 
-            app.UseStaticFiles();
+            app.UseStatusCodePages();
 
             app.UseMvc();
 
